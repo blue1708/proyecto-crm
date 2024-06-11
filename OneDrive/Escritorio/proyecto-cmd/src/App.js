@@ -1,22 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import { useAuth0 } from '@auth0/auth0-react';
+import LoginButton from './Components/Login/Login';
+import Topbar from './Components/Topbar/Topbar';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
+  const { isAuthenticated } = useAuth0();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Adrian es my app</h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Router>
+          <div className="App">
+
+        {isAuthenticated ? <>
+          <Topbar />
+        </>
+      : <LoginButton />}
+
     </div>
+    </Router>
+
   );
 }
 
