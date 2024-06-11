@@ -11,7 +11,7 @@ root.render(
     domain= "dev-wdp08yctszgmiapp.us.auth0.com"
     clientId="Bpsb9GFbMZz27SEWb7OI1f6M7rphdSwi"
     authorizationParams={{
-      redirect_uri: window.location.origin
+      redirect_uri: "https://blue1708.github.io/proyecto-crm"
     }}>
       <App />
     </Auth0Provider>
