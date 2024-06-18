@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/proyecto-crm/static/css/main.e1ab9809.css",
-    "main.js": "/proyecto-crm/static/js/main.ea60aa44.js",
+    "main.js": "/proyecto-crm/static/js/main.3085a7d6.js",
     "static/js/453.5e91ecca.chunk.js": "/proyecto-crm/static/js/453.5e91ecca.chunk.js",
     "static/media/primeicons.svg": "/proyecto-crm/static/media/primeicons.6ed59f962963a4a73af2.svg",
     "static/media/Default_Looking_thought_the_lush_palatial_gardens_foliage_into_3.webp": "/proyecto-crm/static/media/Default_Looking_thought_the_lush_palatial_gardens_foliage_into_3.5ee4cdabf58f9929c141.webp",
@@ -12,11 +12,11 @@
     "static/media/primeicons.woff2": "/proyecto-crm/static/media/primeicons.024b32cc7bf399b1a847.woff2",
     "index.html": "/proyecto-crm/index.html",
     "main.e1ab9809.css.map": "/proyecto-crm/static/css/main.e1ab9809.css.map",
-    "main.ea60aa44.js.map": "/proyecto-crm/static/js/main.ea60aa44.js.map",
+    "main.3085a7d6.js.map": "/proyecto-crm/static/js/main.3085a7d6.js.map",
     "453.5e91ecca.chunk.js.map": "/proyecto-crm/static/js/453.5e91ecca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e1ab9809.css",
-    "static/js/main.ea60aa44.js"
+    "static/js/main.3085a7d6.js"
   ]
 }
