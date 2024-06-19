@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useAuth0 } from '@auth0/auth0-react';
-import SidebarLat from '../Sidebar/SidebarLat'
+import Pidebar from '../Sidebar/Pidebar'
 import { LogoutButton } from '../Logout/Logout';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './Topbar.css';
@@ -17,7 +17,7 @@ const Topbar = () => {
     <BrowserRouter>
       <div className="topbar">
         <Routes>
-          <Route path="/" element={<SidebarLat />} />
+          <Route path="/" element={<Pidebar />} />
         </Routes>
         <img src={user.picture} alt={user.name} onClick={toggleDropdown} />
         {showDropdown && (
