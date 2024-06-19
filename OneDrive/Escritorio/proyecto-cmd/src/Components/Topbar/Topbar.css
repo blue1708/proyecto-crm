@@ -1,11 +1,12 @@
+/* Estilos generales para un diseño moderno */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
 }
 
 /* Estilos para la barra superior (topbar) */
 .topbar {
-  position: relative;
   background-color: #333; /* Color de fondo del topbar */
   padding: 10px 20px; /* Padding general del topbar */
   display: flex; /* Utilizamos flexbox */
@@ -29,68 +30,20 @@ body {
 
 /* Estilos para la imagen de perfil */
 img {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%; /* Hacemos la imagen circular */
-}
-
-.dropdown-container {
-  position: absolute;
-  top: 50px; /* ajusta la posición según sea necesario */
-  right: 20px; /* ajusta la posición según sea necesario */
-  z-index: 1; /* para que el dropdown esté por encima del topbar */
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.dropdown-content {
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.imagen_usuario {
-  height: 3rem;
   width: 3rem;
-  border-radius: 50%;
-  margin: 0.5rem;
-}
-
-.icons-container {
-  padding: 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-}
-
-.icons-container i {
-  font-size: 1.5rem;
-  margin: 0 10px;
-  cursor: pointer;
-}
-
-.icons-container i:hover {
-  color: #666;
-}
-
-.topbar {
-  position: relative; /* para que el dropdown se posicione correctamente */
+  height: 3rem;
+  border-radius: 50%; /* Hacemos la imagen circular */
 }
 
 /* Estilos para los botones */
 .topbar button {
-  width: 4rem;
-  height: 2rem;
-  font-size: 0.8rem;
+  width: 5rem;
+  height: 3rem;
+  font-size: 1rem;
   background-color: #555; /* Color de fondo del botón */
   color: #fff; /* Color del texto del botón */
   border: none; /* Sin bordes */
-  border-radius: 15px; /* Bordes redondeados */
+  border-radius: 5px; /* Bordes redondeados */
   cursor: pointer; /* Cursor de mano para el botón */
   transition: background-color 0.3s ease; /* Transición suave para el fondo */
 }
