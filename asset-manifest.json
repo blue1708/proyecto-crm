@@ -1,22 +1,17 @@
 {
   "files": {
-    "main.css": "/proyecto-crm/static/css/main.40fa2f76.css",
-    "main.js": "/proyecto-crm/static/js/main.08a50282.js",
+    "main.css": "/proyecto-crm/static/css/main.79dbf12d.css",
+    "main.js": "/proyecto-crm/static/js/main.078184f4.js",
     "static/js/453.5e91ecca.chunk.js": "/proyecto-crm/static/js/453.5e91ecca.chunk.js",
-    "static/media/primeicons.svg": "/proyecto-crm/static/media/primeicons.6ed59f962963a4a73af2.svg",
     "static/media/Default_Looking_thought_the_lush_palatial_gardens_foliage_into_3.webp": "/proyecto-crm/static/media/Default_Looking_thought_the_lush_palatial_gardens_foliage_into_3.5ee4cdabf58f9929c141.webp",
-    "static/media/primeicons.eot": "/proyecto-crm/static/media/primeicons.ff0c4cd79b2ffca2de54.eot",
-    "static/media/primeicons.woff": "/proyecto-crm/static/media/primeicons.8931fda1930c3bd21e96.woff",
-    "static/media/primeicons.ttf": "/proyecto-crm/static/media/primeicons.a5c2a53d1ff7a9ff5933.ttf",
     "static/media/Default_realistic_aerial_view_hdri_photography_of_a_sphere_spa_1 (1).webp": "/proyecto-crm/static/media/Default_realistic_aerial_view_hdri_photography_of_a_sphere_spa_1 (1).4b02e4e3fbe45676ea41.webp",
-    "static/media/primeicons.woff2": "/proyecto-crm/static/media/primeicons.024b32cc7bf399b1a847.woff2",
     "index.html": "/proyecto-crm/index.html",
-    "main.40fa2f76.css.map": "/proyecto-crm/static/css/main.40fa2f76.css.map",
-    "main.08a50282.js.map": "/proyecto-crm/static/js/main.08a50282.js.map",
+    "main.79dbf12d.css.map": "/proyecto-crm/static/css/main.79dbf12d.css.map",
+    "main.078184f4.js.map": "/proyecto-crm/static/js/main.078184f4.js.map",
     "453.5e91ecca.chunk.js.map": "/proyecto-crm/static/js/453.5e91ecca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40fa2f76.css",
-    "static/js/main.08a50282.js"
+    "static/css/main.79dbf12d.css",
+    "static/js/main.078184f4.js"
   ]
 }
