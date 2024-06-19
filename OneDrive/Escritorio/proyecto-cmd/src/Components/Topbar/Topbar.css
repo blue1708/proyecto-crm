@@ -1,32 +1,20 @@
-/* Estilos generales para un diseño moderno */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-}
-
-/* Estilos para la barra superior (topbar) */
 .topbar {
-  background-color: #333; /* Color de fondo del topbar */
-  padding: 10px 20px; /* Padding general del topbar */
-  display: flex; /* Utilizamos flexbox */
-  justify-content: flex-end; /* Alineamos todos los elementos a la derecha */
-  align-items: center; /* Centramos verticalmente los elementos */
-  flex-wrap: wrap; /* Permite que los elementos se ajusten a una nueva línea si es necesario */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
-  z-index: 1000; /* Aseguramos que la topbar esté por encima de otros elementos */
-  gap: 10px; /* Espacio entre elementos */
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  z-index: 1000;
 }
 
-/* Estilos para la imagen de perfil */
 .topbar img {
   width: 3rem;
   height: 3rem;
-  border-radius: 50%; /* Hacemos la imagen circular */
+  border-radius: 50%;
   cursor: pointer;
 }
 
-/* Estilos para el menú desplegable */
 .dropdown-container {
   position: absolute;
   top: 60px;
