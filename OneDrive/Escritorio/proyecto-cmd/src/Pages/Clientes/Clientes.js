@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Clientes() {
   return (
-    <div>Clientes</div>
+    <div>
+      <h2>Hola Soy un Clinete</h2>
+    </div>
   )
 }

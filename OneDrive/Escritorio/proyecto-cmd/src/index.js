@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Auth0Provider } from '@auth0/auth0-react';
+import { BrowserRouter } from 'react-router-dom';
+import App from './App';
+import './index.css';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -13,10 +15,11 @@ root.render(
     authorizationParams={{
       redirect_uri: "https://blue1708.github.io/proyecto-crm"
     }}>
-      <App />
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
     </Auth0Provider>
   </React.StrictMode>
 );
-
 
 reportWebVitals();

@@ -39,7 +39,9 @@ img {
   top: 50px; /* ajusta la posición según sea necesario */
   right: 20px; /* ajusta la posición según sea necesario */
   z-index: 1; /* para que el dropdown esté por encima del topbar */
-  background-color: #f9f9f9;
+  background-color: #605f5fc6;
+  backdrop-filter: 10px;
+  color: #fff;
   border: 1px solid #ccc;
   padding: 10px;
   border-radius: 5px;
@@ -54,10 +56,14 @@ img {
 }
 
 .imagen_usuario {
-  height: 3rem;
-  width: 3rem;
+  height: 3.5rem;
+  width: 3.5rem;
   border-radius: 50%;
   margin: 0.5rem;
+}
+
+.Nombre_Usuario{
+  padding-top: 1rem;
 }
 
 .icons-container {

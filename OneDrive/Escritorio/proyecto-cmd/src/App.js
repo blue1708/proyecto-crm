@@ -1,29 +1,34 @@
 import React from 'react';
 import { useAuth0 } from '@auth0/auth0-react';
-import LoginButton from './Components/Login/Login';
-import { Router, Route } from 'react-router-dom';
+import { LoginButton } from './Components/Login/Login';
+import { Route, Routes } from 'react-router-dom';
 import Topbar from './Components/Topbar/Topbar';
-import './App.css';
 import Dashboard from './Pages/Dashboard/Dashboard';
+import Clientes from './Pages/Clientes/Clientes';
+import Factura from './Pages/Factura/Factura';
+import './App.css';
 
 function App() {
   const { isAuthenticated } = useAuth0();
-  console.log('Hola:', Dashboard)
+  console.log('Is authenticated:', isAuthenticated); // <--- Agrega esta línea
+  console.log('Dashboard importado:', Dashboard); // <--- Agrega esta línea
+  
   return (
-    <Router>
-          <div className="App">
-
-        {isAuthenticated ? <>
+    <div className="App">
+      {isAuthenticated ? (
+        <>
           <Topbar />
-          <Router>
+          <Routes>
             <Route path="/Dashboard" element={<Dashboard />} />
-          </Router>
+            <Route path="/Clientes" element={<Clientes />} />
+            <Route path='/Facturas' element={<Factura />}/>
+            {/* Agrega más rutas aquí */}
+          </Routes>
         </>
-      : <LoginButton />}
-
+      ) : (
+        <LoginButton />
+      )}
     </div>
-    </Router>
-
   );
 }
 
