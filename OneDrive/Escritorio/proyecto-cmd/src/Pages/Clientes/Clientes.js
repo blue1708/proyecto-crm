@@ -1,7 +1,7 @@
 import React from 'react'
 import { TabView, TabPanel} from 'primereact/tabview';
-import { DataTable } from 'primereact/tabview';
-import { Column } from 'primereact/tabview';
+import { DataTable } from 'primereact/datatable';
+import { Column } from 'primereact/column';
 
 export default function Clientes() {
   const clientes = [
