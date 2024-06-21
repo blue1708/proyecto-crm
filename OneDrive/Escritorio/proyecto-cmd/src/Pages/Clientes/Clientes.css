@@ -1,0 +1,12 @@
+.clientes{
+padding: 1rem;
+}
+
+.titulo{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: .2rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}

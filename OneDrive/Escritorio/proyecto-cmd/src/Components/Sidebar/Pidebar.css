@@ -1,39 +1,82 @@
 .sidebar-lat {
-  background-color: rgba(200, 200, 200, 0.5);
+  background-color: rgba(100, 100, 100, 0.7); /* Update to match the background color in the image */
   padding: 20px;
-  }
-  
-  .flex {
-  align-items: center; /* Alinear verticalmente los elementos del contenedor */
-  }
-  
-  .logo {
-  width: 5rem;
-  height: 5rem;
+  width: 250px; /* Adjust width as needed */
+  height: 100vh; /* Full height of the viewport */
+  color: white; /* White text for better visibility */
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* To space out items evenly */
+}
+
+.logo {
+  width: 4rem; /* Adjust size as needed */
+  height: 4rem; /* Adjust size as needed */
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
   margin: 10px;
-  }
-  
-  .nombre {
-  font-size: 2.5rem; /* Tamaño del texto del nombre /
+}
+
+.nombre {
+  font-size: 1.5rem; /* Adjust size as needed */
   font-weight: bold;
-  display: inline-block; / Para que se alinee con el logo /
-  vertical-align: middle; / Para que se centre verticalmente con el logo */
-  }
-  
-  .flex {
+  margin-left: 10px; /* Space between logo and text */
+}
+
+.nombre_usuario {
+  font-size: 1rem; /* Adjust size as needed */
+  margin-top: 20px;
+  text-align: center; /* Center align user name */
+}
+
+.sidebar-lat-button {
+  font-size: 1rem !important; /* Adjust size as needed */
+  padding: 0.2rem 0.5rem !important;
+  border-radius: 0.5rem !important;
+  height: 2rem !important;
+  width: 2rem !important;
+  background-color: rgba(255, 255, 255, 0.2); /* Light background for button */
+}
+
+.p-ripple {
+  color: white; /* White text for better visibility */
+}
+
+.pi {
+  color: white; /* White icons for better visibility */
+}
+
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+li {
+  margin-bottom: 10px; /* Space between list items */
+}
+
+.p-ripple.flex {
+  background-color: rgba(255, 255, 255, 0.1); /* Light background for hover effect */
+  border-radius: 0.5rem; /* Rounded corners */
   padding: 10px;
-  }
-  
-  .nombre_usuario{
-  font-size: 0.1;
-  }
-  
-  .sidebar-lat-button {
-  font-size: 0.8rem!important;
-  padding: 0.2rem 0.5rem!important;
-  border-radius: 0.5rem!important;
-  height: 2rem!important;
-  width: 2rem!important;
-  }
+}
+
+.p-ripple.flex:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Slightly darker background on hover */
+}
+
+.pi-chevron-down {
+  float: right; /* Align arrow to the right */
+}
+
+.hidden {
+  display: none; /* Hide elements */
+}
+
+.open {
+  display: block; /* Show elements */
+}
