@@ -1,7 +1,12 @@
 import React from 'react'
-import { TabView, TabPanel } from 'primereact/tabview';
+import { TabView, TabPanel} from 'primereact/tabview';
+import { DataTable } from 'primereact/tabview';
+import { Column } from 'primereact/tabview';
 
 export default function Clientes() {
+  const clientes = [
+    { id: 1, nombre: 'Adrian Ivan', email: 'aitoivan04gmail.com', estatus_cliente: 'Vacio'}
+  ]
   return (
     <div>
       <div className='clientes'>
@@ -11,10 +16,12 @@ export default function Clientes() {
         <TabView>
     <TabPanel header="Header I">
         <p className="m-0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <DataTable value={clientes} className="p-datatable-responsive">
+          <Column field="id" header="ID" />
+          <Column field="nombre" header="Nombre" />
+          <Column field="email" header="Email" />
+          <Column field="estatus_cliente" header="Estatus" />
+          </DataTable>
         </p>
     </TabPanel>
     <TabPanel header="Header II">
