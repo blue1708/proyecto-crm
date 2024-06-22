@@ -80,3 +80,27 @@ li {
 .open {
   display: block; /* Show elements */
 }
+
+.accordion-tab {
+  cursor: pointer;
+}
+
+.accordion-tab::before {
+  content: "\25B2"; /* down arrow */
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.accordion-tab.expanded::before {
+  content: "\25BC"; /* up arrow */
+}
+
+.accordion-tab-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.accordion-tab.expanded .accordion-tab-content {
+  max-height: 500px; /* adjust the height to match your content */
+}
