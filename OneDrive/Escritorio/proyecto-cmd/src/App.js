@@ -6,6 +6,7 @@ import Topbar from './Components/Topbar/Topbar';
 import Dashboard from './Pages/Dashboard/Dashboard';
 import Clientes from './Pages/Clientes/Clientes';
 import Factura from './Pages/Factura/Factura';
+import "primereact/resources/themes/lara-light-cyan/theme.css";
 import './App.css';
 
 function App() {
