@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/proyecto-crm/static/css/main.77032cb2.css",
-    "main.js": "/proyecto-crm/static/js/main.be5cc0e9.js",
+    "main.css": "/proyecto-crm/static/css/main.edb16d4d.css",
+    "main.js": "/proyecto-crm/static/js/main.a5c451e9.js",
     "static/js/453.5e91ecca.chunk.js": "/proyecto-crm/static/js/453.5e91ecca.chunk.js",
     "static/media/primeicons.svg": "/proyecto-crm/static/media/primeicons.6ed59f962963a4a73af2.svg",
     "static/media/Inter-italic.var.woff2?v=3.19": "/proyecto-crm/static/media/Inter-italic.var.30807be7abc48ba8c73c.woff2",
@@ -13,12 +13,12 @@
     "static/media/Default_realistic_aerial_view_hdri_photography_of_a_sphere_spa_1 (1).webp": "/proyecto-crm/static/media/Default_realistic_aerial_view_hdri_photography_of_a_sphere_spa_1 (1).4b02e4e3fbe45676ea41.webp",
     "static/media/primeicons.woff2": "/proyecto-crm/static/media/primeicons.024b32cc7bf399b1a847.woff2",
     "index.html": "/proyecto-crm/index.html",
-    "main.77032cb2.css.map": "/proyecto-crm/static/css/main.77032cb2.css.map",
-    "main.be5cc0e9.js.map": "/proyecto-crm/static/js/main.be5cc0e9.js.map",
+    "main.edb16d4d.css.map": "/proyecto-crm/static/css/main.edb16d4d.css.map",
+    "main.a5c451e9.js.map": "/proyecto-crm/static/js/main.a5c451e9.js.map",
     "453.5e91ecca.chunk.js.map": "/proyecto-crm/static/js/453.5e91ecca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77032cb2.css",
-    "static/js/main.be5cc0e9.js"
+    "static/css/main.edb16d4d.css",
+    "static/js/main.a5c451e9.js"
   ]
 }
