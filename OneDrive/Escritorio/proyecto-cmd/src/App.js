@@ -25,9 +25,6 @@ function App() {
             <Route path='/Facturas' element={<Factura />}/>
             {/* Agrega más rutas aquí */}
           </Routes>
-          <h1 className="text-3xl font-bold underline">
-            Hello world!
-          </h1>
         </>
       ) : (
         <LoginButton />
