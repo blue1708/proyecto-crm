@@ -1,9 +1,9 @@
 .sidebar-lat {
-  background-color: rgba(100, 100, 100, 0.7); /* Update to match the background color in the image */
+  background-color: rgba(100, 100, 100, 0.7);
   padding: 20px;
-  width: 250px; /* Adjust width as needed */
-  height: 100vh; /* Full height of the viewport */
-  color: white; /* White text for better visibility */
+  width: 250px;
+  height: 100vh;
+  color: white;
 }
 
 .flex {

@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Card } from 'primereact/card';
+import { CardSales } from '../../Components/Card/CardSales';
 import './Dashboard.css';
 
 export default function Dashboard() {
@@ -10,6 +11,13 @@ export default function Dashboard() {
     <div className='graficos'>
       <h2 className='titulo'>Estadisticas de Clientes</h2>
       <hr className="mb-3 mx-3 border-top-2 border-bottom-1" />
+      <div className='container mx-auto pt-10'>
+      <div className=' grid gap-2 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1'>
+          <CardSales></CardSales>
+          <CardSales></CardSales>
+          <CardSales></CardSales>
+          <CardSales></CardSales>
+        </div>
       <div className='tarjetas'>
         <Card title="Cliente Nuevos" className='titulo_card'>
           <hr className="mb-3 mx-3 border-top-2 border-bottom-1" />
@@ -35,6 +43,7 @@ export default function Dashboard() {
             100
           </p>
         </Card>
+      </div>
       </div>
     </div>
   );

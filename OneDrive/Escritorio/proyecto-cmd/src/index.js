@@ -5,6 +5,7 @@ import { Auth0Provider } from '@auth0/auth0-react';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import './index.css';
+import '../node_modules/@tremor/react/dist/esm/tremor.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
