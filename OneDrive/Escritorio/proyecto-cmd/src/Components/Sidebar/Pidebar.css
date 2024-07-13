@@ -1,106 +1,127 @@
 .sidebar-lat {
   background-color: rgba(100, 100, 100, 0.7);
-  padding: 20px;
-  width: 250px;
+  padding: 15px;
+  width: 240px;
   height: 100vh;
   color: white;
 }
-
 .flex {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* To space out items evenly */
+  justify-content: 100px; /* To space out items evenly */
 }
-
 .logo {
-  width: 4rem; /* Adjust size as needed */
-  height: 4rem; /* Adjust size as needed */
+  width: 85px; 
+  height: 85px;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
-  margin: 10px;
+  margin-left: 40px;
 }
-
 .nombre {
   font-size: 1.5rem; /* Adjust size as needed */
   font-weight: bold;
   margin-left: 10px; /* Space between logo and text */
 }
-
 .nombre_usuario {
   font-size: 1rem; /* Adjust size as needed */
   margin-top: 20px;
   text-align: center; /* Center align user name */
 }
-
 .sidebar-lat-button {
   font-size: 1rem !important; /* Adjust size as needed */
   padding: 0.2rem 0.5rem !important;
   border-radius: 0.5rem !important;
   height: 2rem !important;
   width: 2rem !important;
-  background-color: rgba(255, 255, 255, 0.2); /* Light background for button */
+  background-color: rgba(87, 77, 77, 0.822); /* Light background for button */
 }
-
 .p-ripple {
   color: white; /* White text for better visibility */
 }
-
 .pi {
   color: white; /* White icons for better visibility */
 }
-
 ul {
   list-style-type: none; /* Remove bullets */
   padding: 0; /* Remove padding */
   margin: 0; /* Remove margin */
 }
-
 li {
   margin-bottom: 10px; /* Space between list items */
+  font-size: 15px;
 }
-
 .p-ripple.flex {
   background-color: rgba(255, 255, 255, 0.1); /* Light background for hover effect */
   border-radius: 0.5rem; /* Rounded corners */
   padding: 10px;
 }
-
 .p-ripple.flex:hover {
   background-color: rgba(255, 255, 255, 0.2); /* Slightly darker background on hover */
+  padding: 12px;
 }
-
 .pi-chevron-down {
   float: right; /* Align arrow to the right */
 }
-
 .hidden {
   display: none; /* Hide elements */
 }
-
 .open {
   display: block; /* Show elements */
 }
-
 .accordion-tab {
   cursor: pointer;
 }
-
 .accordion-tab::before {
   content: "\25B2"; /* down arrow */
   font-size: 12px;
   margin-right: 10px;
 }
-
 .accordion-tab.expanded::before {
   content: "\25BC"; /* up arrow */
 }
-
 .accordion-tab-content {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.5s ease-in-out;
 }
-
 .accordion-tab.expanded .accordion-tab-content {
   max-height: 500px; /* adjust the height to match your content */
+}
+.sidebar-item {
+  margin-bottom: 1rem; /* Adjust as needed for spacing */
+}
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.sidebar-children {
+  padding-left: 1rem; /* Adjust for nested items */
+}
+.user-name {
+  margin-top: 1rem;
+  display: block;
+  text-align: center;
+  font-size: 1rem; /* Ajusta el tamaño de la fuente según tus necesidades */
+  font-weight: 500;
+}
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+.name {
+  margin-left: 1rem;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem; /* Espaciado superior */
+}
+.user-picture {
+  width: 40px; /* Ajusta el tamaño de la imagen según tus necesidades */
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 0.5rem; /* Espaciado entre la imagen y el nombre */
 }
